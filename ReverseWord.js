@@ -6,7 +6,7 @@
 const reverseStr = (str) => {
 let arr = str.split('')
 let newArr = []
-  for(i=str.length - 1; i>=0; i--){
+  for(i = str.length - 1; i>=0; i--){
     newArr.push(arr[i])
   }
   return newArr.join('')
