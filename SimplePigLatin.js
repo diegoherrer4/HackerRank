@@ -1,4 +1,4 @@
-function pigIt(str) {
+function pigIt(str){
     var arrayWord = str.split(' ');
     return arrayWord.map(function(word) {
       var firstLetter = word.charAt(0);
